@@ -146,6 +146,19 @@ body {
   height: 40px;
 }
 
+@media screen and (max-width: 768px) {
+  .social-icons {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15%;
+  }
+
+  .social-icons a {
+    margin-bottom: 5px;
+    margin-left: 10%;
+  }
+}
+
 .toggle-container {
   position: absolute;
   top: 0;

@@ -121,8 +121,8 @@ header nav a:hover > a:not(:hover) {
 
 .road {
   display: flex;
-  height: 20dvh;
-  background: #3b3291;
+  height: 40%;
+  background: #99153f;
   position: relative;
   overflow: hidden;
 }
@@ -130,6 +130,7 @@ header nav a:hover > a:not(:hover) {
 .road img {
   position: absolute;
   top: 0;
+  height: 30%;
   width: 100%;
   pointer-events: none;
 }
@@ -142,9 +143,9 @@ header nav a:hover > a:not(:hover) {
 }
 
 .presentation {
-  padding-top: 250px;
+  padding-top: 50px;
   padding-bottom: 250px;
-  background: linear-gradient(to bottom, #3b3291, #1770b9);
+  background: linear-gradient(to bottom, #99153f, #1770b9);
   color: white;
   position: relative;
   z-index: 100;
